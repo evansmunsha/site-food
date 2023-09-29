@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site-Food</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo">
+          <a href="index.html" style="display: flex; align-items: center; color: black">
+            <img class="logo1" src="./assets/logo1.png" alt="" />
+            <span class="text-logo">Developer</span>
+          </a>
+        </div>
+
+        <div class="person">
+          <div class="input-container">
+            <input type="text" placeholder="Search for food or chef" />
+            <img src="./assets/search.png" alt="" />
+          </div>
+
+          <img class="person1" src="./assets/network.png" alt="" />
+        </div>
+
+        <div class="more">
+          <img onclick="settingsMenuToggle()" src="./assets/more.png" alt="" class="menu-icon" />
+
+          <div class="small-menu">
+            <span class="menu-text"><a href="index.html">Home</a></span>
+
+            <span class="menu-text1"><a href="about-us.html">About</a></span>
+
+            <span class="menu-text1"><a href="food-menu.html">Food mune</a></span>
+
+            <span class="menu-text"><a href="book-table.html">Book table</a></span>
+          </div>
+        </div>
+        <div class="menu-links">
+          <span class="menu-text"><a href="index.html">Home</a></span>
+
+          <span class="menu-text1"><a href="about-us.html">About</a></span>
+
+          <span class="menu-text1"><a href="food-menu.html">Food mune</a></span>
+
+          <span class="menu-text"><a href="book-table.html">Book table</a></span>
+        </div>
+      </div>
+
+      <section>
+        <div class="about-us-container">
+          <h1 class="about-us-title">About Us</h1>
+          <p class="about-us-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sed inventore architecto aut voluptates eos repudiandae commodi vero tempora. Deserunt consequuntur, cumque quaerat ullam sed accusantium necessitatibus dolore voluptatem, quidem quae ducimus, soluta explicabo omnis. Provident facilis accusantium corporis cum doloribus aliquid libero beatae nam deleniti facere id culpa iusto doloremque non saepe, minima ipsam voluptas? Ratione nulla, eius facilis odit reprehenderit autem ab recusandae sed consectetur ea quod esse dolore cupiditate error perspiciatis deleniti dicta eaque explicabo voluptatum quo quam neque nemo omnis vitae. Voluptatem, perspiciatis explicabo id nisi a deleniti hic delectus necessitatibus maxime.
+            
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="chefs-container">
+          <h1 class="chefs-title">Our Golden Chefs</h1>
+
+          <div class="chefs-container-grid js-chefs-container-grid"></div>
+
+        </div>
+      </section>
+
+      <section>
+        <div class="story-container">
+
+          <h1 class="story-title">Our Story</h1>
+
+          <p class="story-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, soluta consequatur. Quidem, pariatur nisi! Odio amet porro quae, eveniet beatae quos ducimus suscipit? Adipisci voluptas vel omnis molestiae ut a, facilis eum assumenda tenetur illum aperiam, animi tempora consequatur, sed quam! Ipsa tempora id dolorum quisquam alias totam, inventore odit reprehenderit? Doloribus neque enim corporis, repudiandae deserunt quam reiciendis soluta nulla debitis repellat excepturi eveniet. Voluptate et alias perspiciatis dolorum pariatur, nemo corporis, ab minus reiciendis culpa laborum nihil provident ratione? Aperiam id adipisci pariatur cupiditate obcaecati ducimus excepturi quas, commodi accusamus voluptatem possimus molestias? Ipsam optio quisquam saepe tempore corrupti. Totam amet possimus unde animi dolorem odio harum culpa ipsum, maiores odit perferendis! Alias nisi voluptate obcaecati corrupti voluptates reiciendis soluta eveniet, officiis laboriosam saepe quisquam harum deserunt, rem mollitia? Quae sequi repudiandae, reprehenderit distinctio quis doloremque incidunt in. Cumque nostrum ad qui fuga totam. Aut, debitis sint minima ipsum commodi accusantium molestias tempora necessitatibus ratione autem temporibus voluptatum vitae sunt excepturi doloremque aspernatur quaerat maxime libero voluptas vero enim. Laborum delectus quas dolore ab harum necessitatibus nulla eum! Quisquam placeat consectetur odit! Velit ipsam, soluta vero id minima sapiente recusandae incidunt architecto deleniti fuga eveniet error cupiditate unde autem in voluptatem quam. Quibusdam possimus omnis nemo odio soluta tempora cumque beatae dicta consequuntur quos, doloribus unde libero earum minus? Recusandae iure officiis facere qui reprehenderit maxime praesentium incidunt dolores molestiae pariatur sunt possimus, quia eligendi laudantium quibusdam illum autem quaerat inventore eum cupiditate. Illum, quia nisi. Eius temporibus nesciunt nostrum earum 
+          </p>
+        </div>
+      </section>
+
+    <div class="footer">
+      <div class="left-footer">
+        <div>
+          <img src="assets/logo1.png" alt="" />
+          <span>Developer Evans</span>
+        </div>
+
+        <label>Email evans@gmail.com</label>
+        <label>My street Lusaka City</label>
+        <label>Phone: +260 972659245</label>
+      </div>
+
+      <div class="right-footer">
+        <img src="assets/logo1.png" alt="" />
+        <span>Powered by Developer Evans</span>
+      </div>
+    </div>
+    <script src="data/chefs.js"></script>
+    <script src="generateHTML/chefsInfo.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

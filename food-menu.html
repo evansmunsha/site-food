@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site-Food</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo">
+          <a href="index.html" style="display: flex; align-items: center; color: black">
+            <img class="logo1" src="./assets/logo1.png" alt="" />
+            <span class="text-logo">Developer</span>
+          </a>
+        </div>
+
+        <div class="person">
+          <div class="input-container">
+            <input type="text" placeholder="Search for food or chef" />
+            <img src="./assets/search.png" alt="" />
+          </div>
+
+          <img class="person1" src="./assets/network.png" alt="" />
+        </div>
+
+        <div class="more">
+          <img onclick="settingsMenuToggle()" src="./assets/more.png" alt="" class="menu-icon" />
+
+          <div class="small-menu">
+            <span class="menu-text"><a href="index.html"> Home </a></span>
+
+            <span class="menu-text1"><a href="about-us.html"> About </a></span>
+
+            <span class="menu-text1"><a href="food-menu.html">Food mune</a></span>
+
+            <span class="menu-text"><a href="book-table.html">Book table</a></span>
+          </div>
+        </div>
+        <div class="menu-links">
+          <span class="menu-text"><a href="index.html"> Home </a></span>
+
+          <span class="menu-text1"><a href="about-us.html"> About </a></span>
+
+          <span class="menu-text1"><a href="food-menu.html">Food mune</a></span>
+
+          <span class="menu-text"><a href="book-table.html">Book table</a></span>
+        </div>
+      </div>
+
+      <div class="food-menu">
+        <h1 class="food-menu-title">Food Menu</h1>
+        <div class="food-display-grid js-food-display-grid"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="left-footer">
+        <div>
+          <img src="assets/Logo1.png" alt="" />
+          <span>Developer Evans</span>
+        </div>
+
+        <label>Email evans@gmail.com</label>
+        <label>My street Lusaka City</label>
+        <label>Phone: +260 972659245</label>
+      </div>
+
+      <div class="right-footer">
+        <img src="assets/Logo1.png" alt="" />
+        <span>Powered by Developer Evans</span>
+      </div>
+    </div>
+    <script src="data/foodProducts.js"></script>
+    <script src="generateHTML/foodMenu.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
